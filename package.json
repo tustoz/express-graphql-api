@@ -1,0 +1,29 @@
+{
+  "name": "express-graphql-api",
+  "version": "1.0.0",
+  "description": "express and graphql api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pro": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tustoz/express-graphql-api.git"
+  },
+  "author": "Maxi Aditya Kusuma Winarjo (Tustoz)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/tustoz/express-graphql-api/issues"
+  },
+  "homepage": "https://github.com/tustoz/express-graphql-api#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
